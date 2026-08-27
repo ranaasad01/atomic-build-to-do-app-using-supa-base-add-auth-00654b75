@@ -1,0 +1,330 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "signin": "Sign In"
+  },
+  "footer": {
+    "tagline": "Bringing clarity to your day with real-time sync and smart filtering.",
+    "navHeading": "Navigation",
+    "socialHeading": "Follow us",
+    "copyright": "© 2024 TaskFlow. All rights reserved.",
+    "madeWith": "Built with Next.js and Supabase."
+  },
+  "hero": {
+    "badge": "New",
+    "badge2": {
+      "sub": "Trusted by 10,000+ teams",
+      "title": "Built for productivity"
+    },
+    "cta": {
+      "primary": "Start Free",
+      "secondary": "See Demo"
+    },
+    "headline": {
+      "accent": "effortless",
+      "line1": "Task management made",
+      "line2": "Simple, fast, and powerful."
+    },
+    "mockUI": {
+      "addPlaceholder": "Add a new task...",
+      "title": "Your tasks, organized"
+    },
+    "subhead": "Capture ideas instantly, organize them your way, and never miss a deadline. Built with Supabase for speed and security."
+  },
+  "auth-form": [
+    {
+      "text": "Email address — the address you'll use to log in every time"
+    },
+    {
+      "text": "Password — at least 8 characters; we never store it in plain text"
+    },
+    {
+      "text": "Toggle between 'Sign In' and 'Create Account' with a single click"
+    },
+    {
+      "text": "Inline error messages surface instantly so you never wonder what went wrong"
+    },
+    {
+      "text": "Persistent session — stay logged in across browser restarts without re-entering credentials"
+    }
+  ],
+  "task-summary": [
+    {
+      "label": "Total tasks",
+      "desc": "the full count of everything you've added to your list"
+    },
+    {
+      "label": "Completed tasks",
+      "desc": "how many you've already checked off today"
+    },
+    {
+      "label": "Remaining tasks",
+      "desc": "what's still waiting for your attention"
+    },
+    {
+      "label": "Progress bar",
+      "desc": "a visual snapshot of how close you are to a clean slate"
+    }
+  ],
+  "filter-tabs": [
+    {
+      "key": "all",
+      "label": "All",
+      "desc": "see every task you've created, regardless of status"
+    },
+    {
+      "key": "active",
+      "label": "Active",
+      "desc": "only the tasks still waiting to be completed"
+    },
+    {
+      "key": "completed",
+      "label": "Completed",
+      "desc": "everything you've already finished and checked off"
+    }
+  ],
+  "task-list": [
+    {
+      "title": "Finalize Q3 product roadmap",
+      "desc": "due this week, marked active",
+      "is_completed": false
+    },
+    {
+      "title": "Review pull request #214",
+      "desc": "realtime sync test, marked active",
+      "is_completed": false
+    },
+    {
+      "title": "Send invoice to Meridian Studio",
+      "desc": "marked completed",
+      "is_completed": true
+    },
+    {
+      "title": "Book team offsite venue",
+      "desc": "marked active",
+      "is_completed": false
+    },
+    {
+      "title": "Update onboarding email sequence",
+      "desc": "marked completed",
+      "is_completed": true
+    },
+    {
+      "title": "Refactor auth middleware to use Supabase SSR helpers",
+      "desc": "marked active",
+      "is_completed": false
+    },
+    {
+      "title": "Write release notes for v2.1.0",
+      "desc": "marked completed",
+      "is_completed": true
+    }
+  ],
+  "add-task-form": [
+    {
+      "text": "Task title input — placeholder: 'What needs to get done?'"
+    },
+    {
+      "text": "Submit button — adds the task to your list and clears the field"
+    },
+    {
+      "text": "Keyboard shortcut — press Enter to submit without leaving the keyboard"
+    }
+  ],
+  "empty-state": [
+    {
+      "key": "all",
+      "text": "Your list is clear. Add something to get started."
+    },
+    {
+      "key": "active",
+      "text": "No active tasks. Looks like you're all caught up!"
+    },
+    {
+      "key": "completed",
+      "text": "Nothing completed yet — go check something off!"
+    }
+  ],
+  "authPage": {
+    "heroHeading": "Your tasks, finally under control.",
+    "heroBody": "TaskFlow brings clarity to your day. Sign in or create a free account to start managing your to-dos with real-time sync, smart filtering, and a workspace that's entirely yours.",
+    "formHeading": "Welcome to TaskFlow",
+    "formBody": "Sign in to your account or create one in seconds. No credit card, no setup — just your email and a password.",
+    "formCta": "Sign In",
+    "ctaHeading": "New here? It takes 20 seconds.",
+    "ctaBody": "Join thousands of people who use TaskFlow to turn scattered thoughts into finished work. Create your free account now — no payment details required, ever.",
+    "ctaCta": "Create a free account",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "At least 8 characters",
+    "toggleToSignup": "Don't have an account? Create one",
+    "toggleToSignin": "Already have an account? Sign in",
+    "signinButton": "Sign In",
+    "signupButton": "Create Account",
+    "signingIn": "Signing in...",
+    "creatingAccount": "Creating account..."
+  },
+  "dashboardPage": {
+    "headerHeading": "Welcome back",
+    "headerBody": "Here's everything on your plate today. Stay focused, knock things out, and let TaskFlow keep track of the rest.",
+    "logoutButton": "Log out",
+    "summaryHeading": "Your progress at a glance",
+    "tasksHeading": "Your tasks",
+    "tasksBody": "Each task updates in real time — check one off on your phone and it disappears from your laptop instantly.",
+    "addHeading": "Add a new task",
+    "addBody": "Type your task and press Enter or click Add — it'll appear in your list instantly.",
+    "addPlaceholder": "What needs to get done?",
+    "addButton": "Add task",
+    "emptyHeading": "Nothing here yet — enjoy the calm.",
+    "emptyBody": "When you're ready, add your first task above and TaskFlow will keep it safe, synced, and sorted for you.",
+    "emptyCta": "Add your first task",
+    "editModalHeading": "Edit task",
+    "editModalSave": "Save changes",
+    "editModalCancel": "Cancel",
+    "deleteAriaLabel": "Delete task",
+    "editAriaLabel": "Edit task",
+    "filterLabel": "Filter your tasks",
+    "progressLabel": "tasks completed",
+    "of": "of"
+  },
+  "auth": {
+    "error": {
+      "emailInvalid": "Please enter a valid email address",
+      "emailRequired": "Email is required",
+      "passwordMismatch": "Passwords don't match",
+      "passwordRequired": "Password is required",
+      "passwordShort": "Password must be at least 8 characters"
+    },
+    "form": {
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "Confirm your password",
+      "demoButton": "Try Demo",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "forgotPassword": "Forgot password?",
+      "hasAccount": "Already have an account?",
+      "hidePassword": "Hide",
+      "loading": "Loading...",
+      "noAccount": "Don't have an account?",
+      "or": "Or",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "showPassword": "Show",
+      "signinButton": "Sign In",
+      "signinHeading": "Welcome back",
+      "signinSub": "Sign in to your account to manage your tasks",
+      "signupButton": "Create Account",
+      "signupHeading": "Get started",
+      "signupSub": "Create an account to start organizing your tasks",
+      "switchToSignin": "Sign in instead",
+      "switchToSignup": "Create account instead"
+    },
+    "panel": {
+      "footer": "Secure authentication powered by Supabase",
+      "headline": "Your tasks, organized",
+      "subheadline": "Build better habits with a simple, powerful to-do app"
+    },
+    "success": {
+      "cta": "Go to Dashboard",
+      "signinBody": "You're all set. Let's get back to your tasks.",
+      "signinTitle": "Signed in successfully",
+      "signupBody": "Welcome! Your account is ready. Start adding tasks now.",
+      "signupTitle": "Account created"
+    },
+    "tab": {
+      "signin": "Sign In",
+      "signup": "Sign Up"
+    }
+  },
+  "cta": {
+    "button": "Start Free",
+    "eyebrow": "Ready to get organized?",
+    "footnote": "No credit card required",
+    "heading": "Take control of your tasks today",
+    "secondary": "Learn More",
+    "subhead": "Join thousands staying productive with our simple to-do app"
+  },
+  "features": {
+    "eyebrow": "Why choose us",
+    "heading": "Everything you need to stay on top of your tasks",
+    "items": {
+      "0": {
+        "desc": "Create lists, set priorities, and organize tasks your way",
+        "title": "Smart Organization"
+      },
+      "1": {
+        "desc": "Access your tasks across all devices instantly",
+        "title": "Real-time Sync"
+      },
+      "2": {
+        "desc": "Your data is encrypted and protected with enterprise-grade security",
+        "title": "Smart Reminders"
+      },
+      "3": {
+        "desc": "Sync across all your devices instantly. Start on mobile, finish on desktop—your tasks are always in sync.",
+        "title": "Cross-Device Sync"
+      },
+      "4": {
+        "desc": "Control who sees what. Share lists with teammates or keep your tasks private with granular permissions.",
+        "title": "Secure Sharing"
+      },
+      "5": {
+        "desc": "Built on Supabase for enterprise-grade security. Your data is encrypted and backed up automatically.",
+        "title": "Bank-Level Security"
+      }
+    },
+    "subhead": "Everything you need to stay organized"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "heading": "Three steps to productivity",
+    "items": {
+      "0": {
+        "desc": "Sign up with email or social login. Your account is secured with industry-standard authentication.",
+        "title": "Create Your Account"
+      },
+      "1": {
+        "desc": "Add tasks, set priorities, and organize into lists. Drag to reorder—it's that simple.",
+        "title": "Build Your Lists"
+      },
+      "2": {
+        "desc": "Check off tasks as you go. Track progress and celebrate wins with real-time updates.",
+        "title": "Stay on Track"
+      }
+    },
+    "subhead": "Get started in seconds"
+  },
+  "stats": {
+    "items": {
+      "0": {
+        "label": "Active Users"
+      },
+      "1": {
+        "label": "Tasks Completed"
+      },
+      "2": {
+        "label": "Uptime Guarantee"
+      },
+      "3": {
+        "label": "Support Response"
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Loved by teams",
+    "heading": "See what users are saying",
+    "items": {
+      "0": {
+        "quote": "Finally, a to-do app that doesn't slow me down. It's intuitive and just works."
+      },
+      "1": {
+        "quote": "The sync is flawless. I can start a task on my phone and finish it on my laptop without thinking twice."
+      },
+      "2": {
+        "quote": "Best investment for our team's workflow. Sharing lists with my team has cut our meeting time in half."
+      }
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Panel de control",
+    "signin": "Iniciar sesión"
+  },
+  "footer": {
+    "tagline": "Claridad en tu día con sincronización en tiempo real y filtrado inteligente.",
+    "navHeading": "Navegación",
+    "socialHeading": "Síguenos",
+    "copyright": "© 2024 TaskFlow. Todos los derechos reservados.",
+    "madeWith": "Creado con Next.js y Supabase."
+  },
+  "hero": {
+    "badge": "Nuevo",
+    "badge2": {
+      "sub": "Confiado por más de 10,000 equipos",
+      "title": "Diseñado para la productividad"
+    },
+    "cta": {
+      "primary": "Comenzar gratis",
+      "secondary": "Ver demostración"
+    },
+    "headline": {
+      "accent": "sin esfuerzo",
+      "line1": "Gestión de tareas hecha",
+      "line2": "Simple, rápido y potente."
+    },
+    "mockUI": {
+      "addPlaceholder": "Añadir una nueva tarea...",
+      "title": "Tus tareas, organizadas"
+    },
+    "subhead": "Captura ideas al instante, organízalas a tu manera y nunca pierdas una fecha límite. Creado con Supabase para velocidad y seguridad."
+  },
+  "authPage": {
+    "heroHeading": "Tus tareas, finalmente bajo control.",
+    "heroBody": "TaskFlow te trae claridad a tu día. Inicia sesión o crea una cuenta gratuita para comenzar a gestionar tus tareas con sincronización en tiempo real, filtrado inteligente y un espacio de trabajo completamente tuyo.",
+    "formHeading": "Bienvenido a TaskFlow",
+    "formBody": "Inicia sesión en tu cuenta o crea una en segundos. Sin tarjeta de crédito, sin configuración — solo tu correo electrónico y una contraseña.",
+    "formCta": "Iniciar sesión",
+    "ctaHeading": "¿Eres nuevo? Solo toma 20 segundos.",
+    "ctaBody": "Únete a miles de personas que usan TaskFlow para convertir ideas dispersas en trabajo terminado. Crea tu cuenta gratuita ahora — sin detalles de pago requeridos, nunca.",
+    "ctaCta": "Crear una cuenta gratuita",
+    "emailLabel": "Dirección de correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Al menos 8 caracteres",
+    "toggleToSignup": "¿No tienes cuenta? Crea una",
+    "toggleToSignin": "¿Ya tienes cuenta? Inicia sesión",
+    "signinButton": "Iniciar sesión",
+    "signupButton": "Crear cuenta",
+    "signingIn": "Iniciando sesión...",
+    "creatingAccount": "Creando cuenta..."
+  },
+  "dashboardPage": {
+    "headerHeading": "Bienvenido de vuelta",
+    "headerBody": "Aquí está todo lo que tienes hoy. Mantente enfocado, completa las tareas y deja que TaskFlow se encargue del resto.",
+    "logoutButton": "Cerrar sesión",
+    "summaryHeading": "Tu progreso de un vistazo",
+    "tasksHeading": "Tus tareas",
+    "tasksBody": "Cada tarea se actualiza en tiempo real — marca una en tu teléfono y desaparece de tu laptop al instante.",
+    "addHeading": "Añadir una nueva tarea",
+    "addBody": "Escribe tu tarea y presiona Enter o haz clic en Añadir — aparecerá en tu lista al instante.",
+    "addPlaceholder": "¿Qué necesita hacerse?",
+    "addButton": "Añadir tarea",
+    "emptyHeading": "Nada aquí aún — disfruta la calma.",
+    "emptyBody": "Cuando estés listo, añade tu primera tarea arriba y TaskFlow la mantendrá segura, sincronizada y organizada para ti.",
+    "emptyCta": "Añade tu primera tarea",
+    "editModalHeading": "Editar tarea",
+    "editModalSave": "Guardar cambios",
+    "editModalCancel": "Cancelar",
+    "deleteAriaLabel": "Eliminar tarea",
+    "editAriaLabel": "Editar tarea",
+    "filterLabel": "Filtrar tus tareas",
+    "progressLabel": "tareas completadas",
+    "of": "de"
+  },
+  "auth": {
+    "error": {
+      "emailInvalid": "Por favor ingresa una dirección de correo válida",
+      "emailRequired": "El correo es requerido",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "passwordRequired": "La contraseña es requerida",
+      "passwordShort": "La contraseña debe tener al menos 8 caracteres"
+    },
+    "form": {
+      "confirmLabel": "Confirmar contraseña",
+      "confirmPlaceholder": "Confirma tu contraseña",
+      "demoButton": "Probar demostración",
+      "emailLabel": "Correo",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "hasAccount": "¿Ya tienes una cuenta?",
+      "hidePassword": "Ocultar",
+      "loading": "Cargando...",
+      "noAccount": "¿No tienes una cuenta?",
+      "or": "O",
+      "passwordLabel": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPassword": "Mostrar",
+      "signinButton": "Iniciar sesión",
+      "signinHeading": "Bienvenido de vuelta",
+      "signinSub": "Inicia sesión en tu cuenta para gestionar tus tareas",
+      "signupButton": "Crear Cuenta",
+      "signupHeading": "Comienza ahora",
+      "signupSub": "Crea una cuenta para empezar a organizar tus tareas",
+      "switchToSignin": "Inicia sesión en su lugar",
+      "switchToSignup": "Crea una cuenta en su lugar"
+    },
+    "panel": {
+      "footer": "Autenticación segura impulsada por Supabase",
+      "headline": "Tus tareas, organizadas",
+      "subheadline": "Desarrolla mejores hábitos con una aplicación de tareas simple y poderosa"
+    },
+    "success": {
+      "cta": "Ir al Panel",
+      "signinBody": "Todo está listo. Volvamos a tus tareas.",
+      "signinTitle": "Sesión iniciada correctamente",
+      "signupBody": "¡Bienvenido! Tu cuenta está lista. Comienza a agregar tareas ahora.",
+      "signupTitle": "Cuenta creada"
+    },
+    "tab": {
+      "signin": "Iniciar Sesión",
+      "signup": "Registrarse"
+    }
+  },
+  "cta": {
+    "button": "Comenzar Gratis",
+    "eyebrow": "¿Listo para organizarte?",
+    "footnote": "No se requiere tarjeta de crédito",
+    "heading": "Toma el control de tus tareas hoy",
+    "secondary": "Más Información",
+    "subhead": "Únete a miles de usuarios que se mantienen productivos con nuestra simple aplicación de tareas"
+  },
+  "features": {
+    "eyebrow": "Por qué elegirnos",
+    "heading": "Todo lo que necesitas para mantenerte al tanto de tus tareas",
+    "items": {
+      "0": {
+        "desc": "Crea listas, establece prioridades y organiza tareas a tu manera",
+        "title": "Organización Inteligente"
+      },
+      "1": {
+        "desc": "Accede a tus tareas en todos los dispositivos al instante",
+        "title": "Sincronización en Tiempo Real"
+      },
+      "2": {
+        "desc": "Tus datos están encriptados y protegidos con seguridad de nivel empresarial",
+        "title": "Recordatorios Inteligentes"
+      },
+      "3": {
+        "desc": "Sincroniza en todos tus dispositivos al instante. Comienza en móvil, termina en escritorio—tus tareas siempre están sincronizadas.",
+        "title": "Sincronización Multiplataforma"
+      },
+      "4": {
+        "desc": "Controla quién ve qué. Comparte listas con compañeros o mantén tus tareas privadas con permisos granulares.",
+        "title": "Compartir de Forma Segura"
+      },
+      "5": {
+        "desc": "Construido en Supabase para seguridad de nivel empresarial. Tus datos están encriptados y respaldados automáticamente.",
+        "title": "Seguridad de Nivel Bancario"
+      }
+    },
+    "subhead": "Todo lo que necesitas para mantenerte organizado"
+  },
+  "howItWorks": {
+    "eyebrow": "Cómo funciona",
+    "heading": "Tres pasos hacia la productividad",
+    "items": {
+      "0": {
+        "desc": "Regístrate con correo electrónico o inicio de sesión social. Tu cuenta está protegida con autenticación estándar de la industria.",
+        "title": "Crea Tu Cuenta"
+      },
+      "1": {
+        "desc": "Añade tareas, establece prioridades y organiza en listas. Arrastra para reordenar—es así de simple.",
+        "title": "Crea Tus Listas"
+      },
+      "2": {
+        "desc": "Marca tareas conforme avanzas. Sigue el progreso y celebra logros con actualizaciones en tiempo real.",
+        "title": "Mantente en Camino"
+      }
+    },
+    "subhead": "Comienza en segundos"
+  },
+  "stats": {
+    "items": {
+      "0": {
+        "label": "Usuarios Activos"
+      },
+      "1": {
+        "label": "Tareas Completadas"
+      },
+      "2": {
+        "label": "Garantía de Disponibilidad"
+      },
+      "3": {
+        "label": "Respuesta de Soporte"
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Amado por equipos",
+    "heading": "Mira lo que dicen los usuarios",
+    "items": {
+      "0": {
+        "quote": "Finalmente, una app de tareas que no me ralentiza. Es intuitiva y simplemente funciona."
+      },
+      "1": {
+        "quote": "La sincronización es impecable. Puedo iniciar una tarea en mi teléfono y terminarla en mi laptop sin pensarlo dos veces."
+      },
+      "2": {
+        "quote": "La mejor inversión para el flujo de trabajo de nuestro equipo. Compartir listas con mi equipo ha reducido nuestro tiempo de reuniones a la mitad."
+      }
+    }
+  },
+  "auth-form": [
+    {
+      "text": "Email address — the address you'll use to log in every time"
+    },
+    {
+      "text": "Password — at least 8 characters; we never store it in plain text"
+    },
+    {
+      "text": "Toggle between 'Sign In' and 'Create Account' with a single click"
+    },
+    {
+      "text": "Inline error messages surface instantly so you never wonder what went wrong"
+    },
+    {
+      "text": "Persistent session — stay logged in across browser restarts without re-entering credentials"
+    }
+  ],
+  "task-summary": [
+    {
+      "label": "Total tasks",
+      "desc": "the full count of everything you've added to your list"
+    },
+    {
+      "label": "Completed tasks",
+      "desc": "how many you've already checked off today"
+    },
+    {
+      "label": "Remaining tasks",
+      "desc": "what's still waiting for your attention"
+    },
+    {
+      "label": "Progress bar",
+      "desc": "a visual snapshot of how close you are to a clean slate"
+    }
+  ],
+  "filter-tabs": [
+    {
+      "key": "all",
+      "label": "All",
+      "desc": "see every task you've created, regardless of status"
+    },
+    {
+      "key": "active",
+      "label": "Active",
+      "desc": "only the tasks still waiting to be completed"
+    },
+    {
+      "key": "completed",
+      "label": "Completed",
+      "desc": "everything you've already finished and checked off"
+    }
+  ],
+  "task-list": [
+    {
+      "title": "Finalize Q3 product roadmap",
+      "desc": "due this week, marked active",
+      "is_completed": false
+    },
+    {
+      "title": "Review pull request #214",
+      "desc": "realtime sync test, marked active",
+      "is_completed": false
+    },
+    {
+      "title": "Send invoice to Meridian Studio",
+      "desc": "marked completed",
+      "is_completed": true
+    },
+    {
+      "title": "Book team offsite venue",
+      "desc": "marked active",
+      "is_completed": false
+    },
+    {
+      "title": "Update onboarding email sequence",
+      "desc": "marked completed",
+      "is_completed": true
+    },
+    {
+      "title": "Refactor auth middleware to use Supabase SSR helpers",
+      "desc": "marked active",
+      "is_completed": false
+    },
+    {
+      "title": "Write release notes for v2.1.0",
+      "desc": "marked completed",
+      "is_completed": true
+    }
+  ],
+  "add-task-form": [
+    {
+      "text": "Task title input — placeholder: 'What needs to get done?'"
+    },
+    {
+      "text": "Submit button — adds the task to your list and clears the field"
+    },
+    {
+      "text": "Keyboard shortcut — press Enter to submit without leaving the keyboard"
+    }
+  ],
+  "empty-state": [
+    {
+      "key": "all",
+      "text": "Your list is clear. Add something to get started."
+    },
+    {
+      "key": "active",
+      "text": "No active tasks. Looks like you're all caught up!"
+    },
+    {
+      "key": "completed",
+      "text": "Nothing completed yet — go check something off!"
+    }
+  ]
+}
