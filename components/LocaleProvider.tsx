@@ -5,35 +5,11 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from "
 import en from "@/messages/en.json";
 import es from "@/messages/es.json";
 
-function toAbstractIntlMessages(raw: unknown): AbstractIntlMessages {
-  if (raw === null || raw === undefined) return {};
-  if (typeof raw === "string") return {};
-  if (Array.isArray(raw)) {
-    const result: AbstractIntlMessages = {};
-    raw.forEach((item, index) => {
-      result[String(index)] = toAbstractIntlMessages(item);
-    });
-    return result;
-  }
-  if (typeof raw === "object") {
-    const result: AbstractIntlMessages = {};
-    for (const [key, value] of Object.entries(raw as Record<string, unknown>)) {
-      if (typeof value === "string") {
-        result[key] = value;
-      } else {
-        result[key] = toAbstractIntlMessages(value);
-      }
-    }
-    return result;
-  }
-  return {};
-}
-
+// Cast through unknown to satisfy AbstractIntlMessages index signature
 const MESSAGES: Record<string, AbstractIntlMessages> = {
-  en: toAbstractIntlMessages(en),
-  es: toAbstractIntlMessages(es),
+  en: en as unknown as AbstractIntlMessages,
+  es: es as unknown as AbstractIntlMessages,
 };
-
 const DEFAULT_LOCALE = process.env.NEXT_PUBLIC_DEFAULT_LOCALE || "en";
 const LOCALES = (process.env.NEXT_PUBLIC_LOCALES || "en,es")
   .split(",").map((s) => s.trim()).filter(Boolean);
